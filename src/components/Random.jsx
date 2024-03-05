@@ -14,14 +14,20 @@ function Random({ todos }) {
 
   return (
     <div className="listItem">
-      <div className="todoItem">
-        <p>Can't decide?</p>
-        <div className="actions">
-          <button onClick={pickRandom}>
+      <div className="random">
+        <div className="text">
+          <br></br>
+          <p>Can't decide?</p>
+          <p>Use the button to get a random selection!</p>
+          <br></br>
+          <div> {randomTodo}</div>
+          <br></br>
+          <button id="shuffle" onClick={pickRandom}>
             <i class="fa-solid fa-shuffle"></i>
           </button>
+          <br></br>
         </div>
-        <div> {randomTodo}</div>
+        <br></br>
       </div>
     </div>
   );

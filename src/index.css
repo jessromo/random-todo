@@ -114,3 +114,17 @@ p {
     font-size: 1.3em;
   }
 }
+.random {
+  background-color: white;
+  border-radius: 14px;
+
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+}
+#shuffle {
+font-size: 1.5em;
+border: none;
+background: none;}
