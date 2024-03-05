@@ -5,7 +5,7 @@ export default function List(props) {
 
   return (
     <>
-      <ul>
+      <ul className="listItem">
         {todos.map((todo, todoIndex) => {
           return (
             <Card {...props} key={todoIndex} index={todoIndex}>
