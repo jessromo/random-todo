@@ -19,7 +19,7 @@ export default function Input(props) {
             setTodoVal("");
           }}
         >
-          Add
+         <i class="fa-solid fa-plus"></i>
         </button>
       </header>
     </>
