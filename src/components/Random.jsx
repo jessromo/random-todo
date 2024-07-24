@@ -6,7 +6,7 @@ function Random({ todos }) {
   const pickRandom = () => {
     if (todos.length > 0) {
       const randomIndex = Math.floor(Math.random() * todos.length);
-      setRandomTodo(todos[randomIndex]);
+      setRandomTodo(todos[randomIndex].text);
     } else {
       setRandomTodo("No to-do items found!");
     }

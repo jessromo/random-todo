@@ -9,7 +9,9 @@ export default function List(props) {
         {todos.map((todo, todoIndex) => {
           return (
             <Todo {...props} key={todoIndex} index={todoIndex}>
-              <p style={{ textDecoration: todo.done ? 'line-through' : 'none' }}>
+              <p
+                style={{ textDecoration: todo.done ? "line-through" : "none" }}
+              >
                 {todo.text}
               </p>
             </Todo>
